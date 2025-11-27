@@ -1,7 +1,7 @@
 # Docusaurus自動生成ナレッジベース
 
 このリポジトリは、Docusaurusの記事やブログを自動生成するためのナレッジベースです。  
-`ateliers-dev` フォルダ配下のDocusaurusプロジェクトで利用される記事・ブログの自動生成や、AIによるコンテンツ生成を支援するための知識・ガイドライン・サンプル等を集約しています。
+`ateliers-dev` リポジトリのDocusaurusプロジェクトで利用される記事・ブログの自動生成や、AIによるコンテンツ生成を支援するための知識・ガイドライン・サンプル等を集約しています。
 
 - Docusaurus構成例や自動生成の手順
 - 記事・ブログのテンプレートやサンプル
@@ -9,6 +9,13 @@
 - 関連する技術情報やFAQ
 
 など、Docusaurusを活用したドキュメント・ナレッジ管理の自動化を推進するための情報を提供します。
+
+## サイトURLとリポジトリ
+
+Docusaurusの公開サイトURL:[https://ateliers.dev/](https://ateliers.dev/)
+
+Docusaurusのリポジトリ:
+[https://github.com/yuu-git/ateliers-dev](https://github.com/yuu-git/ateliers-dev)
 
 ## MCPとAI連携による記事作成・機能追加
 
@@ -22,6 +29,7 @@
 
 ## フォルダ構成
 
+```
 /
 ├── README.md
 ├── docs/                # ナレッジベースのメインドキュメント
@@ -34,5 +42,7 @@
 ├── templates/           # 記事・ブログのテンプレート
 ├── samples/             # サンプルデータや出力例
 └── assets/              # 画像・図・添付ファイル等
+```
 
 この構成をベースに、必要に応じて拡張・調整していくことを推奨します。
+
