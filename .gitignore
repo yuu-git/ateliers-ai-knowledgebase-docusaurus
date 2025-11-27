@@ -1,0 +1,34 @@
+# バックアップや一時ファイル
+*.bak
+*.tmp
+*~
+.backup/
+.DS_Store
+Thumbs.db
+
+# エディタ/IDE関連
+.vscode/
+.idea/
+*.swp
+
+# OSごみファイル
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Docusaurusビルド成果物
+.build/
+.docusaurus/
+node_modules/
+build/
+.cache/
+coverage/
+
+# ログや出力
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# その他
+.env
+.env.*
